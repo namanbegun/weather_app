@@ -19,7 +19,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   int temperature = 0;
-  String location = 'San Francisco';
+  String location = 'Mumbai';
   int woeid = 2487956;
   String weather = 'clear';
   String searchApiUrl =
@@ -28,7 +28,6 @@ class _MyAppState extends State<MyApp> {
 
   @override
   initState() {
-    // TODO: implement initState
     super.initState();
     fetchlocation();
   }
